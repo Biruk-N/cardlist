@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from '@mui/material/Button';
-
+import Image  from './Components/Image';
 function App() {
   return (
+    <div>
     <div className='container'>
         <input value='Email Address'/><br/>
         <input value='Password'/><br/>
@@ -17,6 +18,9 @@ function App() {
     >
       Forgot Account
     </Button>
+    
+    </div>
+    <Image />
     </div>
   );
 }

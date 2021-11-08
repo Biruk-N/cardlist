@@ -1,7 +1,8 @@
 .container{
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     text-align: center;
     margin: 0;
-    
+    justify-content: flex-end;
+    top: 0;
 }
