@@ -8,7 +8,15 @@ function App() {
         <input value='Email Address'/><br/>
         <input value='Password'/><br/>
         <Button variant="contained">Log in</Button>
-        <Button variant="contained">Create Account</Button>
+        <Button variant="contained" color="success">Create Account</Button>
+
+      <Button
+        onClick={() => {
+          alert('clicked');
+        }}
+    >
+      Forgot Account
+    </Button>
     </div>
   );
 }
